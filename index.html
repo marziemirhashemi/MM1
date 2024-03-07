@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First HTML Page</title>
+    <style>
+        body {
+            background-image: url("Picture1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* vh stands for Viewport Height */
+            margin: 0;
+        }
+
+        /*related to element id */
+        #logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 10%;
+        }
+
+        
+        iframe {
+            width: 450px;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="logo" src="logo.png" alt="Description of image">
+    <iframe
+        src="https://copilotstudio.microsoft.com/environments/a3c669f6-ac2e-4e77-ad43-beab3e15bee7/bots/jpm_is_powerCopilot/webchat?__version__=2"
+        frameborder="0"></iframe>
+</body>
+
+</html>
